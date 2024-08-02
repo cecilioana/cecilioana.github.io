@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    --cor1:rgb(255, 38, 0) ;
+}
+#card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color: var(--cor1);
+    margin-bottom: 1%;
+}
+img{
+    width: 50%;
+    height: 50%;
+    min-width: 100px;
+    max-width: 250px;
+    min-height: 250px;
+    max-height: 50%;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+p{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 15px;
+}
+.borda{
+    border: solid, var(--cor1), 2px;
+    flex-wrap: wrap;
+    width: 30%;
+    min-width: 100%;
+}
