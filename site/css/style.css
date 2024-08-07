@@ -1,0 +1,87 @@
+:root{
+    --cor1:rgb(3, 115, 184) ;
+}
+h1{
+    color:var(--cor1);
+    text-align: center;
+    font-size: 5vh;
+    font-family: 'Papyrus' ;
+    font-weight: bold;
+}
+.foto1{
+    min-width: 35px;
+    max-width: 200px;
+    width: 30vw;
+    border-radius: 25px;
+    margin: auto;
+}
+p{
+    text-align: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    font-family: 'Courier New';
+    font-size: 3vh;
+}
+div{
+    text-align: justify;
+
+}
+#card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+body{
+    background-color: azure ;
+    margin: 0%;
+    padding: 0%;
+}
+.foto{
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 50vw;
+    max-width: 400px;
+    min-width: 150px;
+    border-radius: 25px;
+}
+h2{
+    text-align: center;
+    font-family: 'Papyrus';
+    font-weight: bold;
+    height: 4vh;
+    color: var(--cor1);
+}
+iframe{
+    width: 50vw;
+    display: block;
+    margin: auto ;
+}
+#card2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+.imgalbum{
+    min-width: 200px;
+    max-width: 300px;
+    width: 30vw;
+    border-radius: 25px;
+    margin: auto;
+    display: block;
+}
+.titulo{
+    text-align: left;
+    margin: 0%;
+    font-family: Georgia;
+}
+h5{
+    text-align: center;
+    font-family: 'Papyrus';
+}
+lu{
+    font-family: 'Courier New';
+    font-size: 3vh;
+}
