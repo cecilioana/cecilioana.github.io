@@ -1,0 +1,12 @@
+.rodape{
+    width: 2vw;
+}
+footer{
+    width: 100%;
+    height: 10%;
+}
+#baixo{
+    display: flex;
+    text-align: center;
+    gap: 2%;   
+}
