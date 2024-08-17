@@ -1,5 +1,15 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
 :root{
     --cor1:rgb(3, 115, 184) ;
+}
+.titulo{
+    text-align: left;
+    margin: 0%;
+    font-family: Georgia;
 }
 h1{
     color:var(--cor1);
@@ -8,12 +18,17 @@ h1{
     font-family: 'Papyrus' ;
     font-weight: bold;
 }
-.foto1{
-    min-width: 35px;
-    max-width: 200px;
-    width: 30vw;
-    border-radius: 25px;
-    margin: auto;
+h2{
+    text-align: center;
+    font-family: 'Papyrus';
+    font-weight: bold;
+    height: 4vh;
+    color: var(--cor1);
+}
+h5{
+    text-align: center;
+    font-family: 'Papyrus';
+    font-size: 3vh;
 }
 p{
     text-align: center;
@@ -22,20 +37,15 @@ p{
     font-family: 'Courier New';
     font-size: 3vh;
 }
-div{
-    text-align: justify;
-
+p::first-letter{
+    font-size: 4vh;
 }
-#card{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1%;
-}
-body{
-    background-color: azure ;
-    margin: 0%;
-    padding: 0%;
+.foto1{
+    min-width: 35px;
+    max-width: 200px;
+    width: 30vw;
+    border-radius: 25px;
+    margin: auto;
 }
 .foto{
     display: block;
@@ -46,24 +56,6 @@ body{
     min-width: 150px;
     border-radius: 25px;
 }
-h2{
-    text-align: center;
-    font-family: 'Papyrus';
-    font-weight: bold;
-    height: 4vh;
-    color: var(--cor1);
-}
-iframe{
-    width: 50vw;
-    display: block;
-    margin: auto ;
-}
-#card2{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1%;
-}
 .imgalbum{
     min-width: 200px;
     max-width: 300px;
@@ -72,16 +64,76 @@ iframe{
     margin: auto;
     display: block;
 }
-.titulo{
-    text-align: left;
+div{
+    text-align: justify;
+}
+#card{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+#card2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+body{
+    background-color: azure ;
     margin: 0%;
-    font-family: Georgia;
+    padding: 0%;
 }
-h5{
-    text-align: center;
-    font-family: 'Papyrus';
+iframe{
+    width: 50vw;
+    display: block;
+    margin: auto ;
 }
-lu{
+li{
     font-family: 'Courier New';
     font-size: 3vh;
 }
+caption{
+    text-align: center;
+    color: black;
+    font-size: 3vh;
+    font-family: 'Papyrus';
+    font-weight: bold;
+}
+table{
+    border-collapse: collapse;
+    border: solid, 1px, rgb(1, 1, 92);
+    background-color: rgb(205, 227, 255);
+    width: 40vw;
+    min-width: 300px;
+    min-height: 350px;
+    max-width: 40vw;
+    max-height: 40vw;
+    height: 50vh;
+    margin: auto;
+    table-layout: fixed;
+}
+thead{
+    height: 5vh;
+    background-color:  rgb(126, 181, 253);
+}
+td{
+    border: solid, 1px, rgb(1, 1, 92);
+    text-align: center;
+    height: 3vh;
+    font-family: 'Courier New';
+}
+th{
+    font-family: 'Papyrus' ;
+    border: solid, 1px, rgb(1, 1, 92);
+}
+tr{
+    border: solid, 1px, rgb(1, 1, 92);
+}
+table tr:nth-child(even){
+    background-color:  rgb(161, 199, 249);
+}
+tfoot td{
+    text-align: right;
+    padding-right: 1%;
+}
+

@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: var(--cor1);
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 2.5vh;
+    font-family:'Times New Roman';
+    font-weight: bold;
+    padding: 15px;
+}
