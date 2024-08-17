@@ -1,0 +1,11 @@
+
+#bottom{
+    justify-content: center; 
+}
+#lfooter{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+footer{
+    height: 5vh;
+}

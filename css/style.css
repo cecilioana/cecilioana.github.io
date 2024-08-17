@@ -1,0 +1,55 @@
+:root{
+    --cor1: rgb(254, 0, 182);
+}
+h1{
+    font-family: 'Papyrus';
+    font-size: 4vh;
+    text-align: center;
+    color: var(--cor1);
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Gill Sans';
+}
+table{
+    border: 2px, solid , black;
+    border-collapse: collapse;
+    background-color: rgb(254, 214, 252);
+    width: 25vw;
+    min-width: 300px;
+    max-width: 25vw;
+    margin: auto;
+    font-size: 2.5vh;
+    box-shadow: 0 10px 10px black;
+}
+td{
+    border: 2px, solid , black;
+    height: 5vh;
+    width: 10vw;
+    text-align: left;
+    color: var(--cor1);
+}
+th{
+    font-family: 'Papyrus';
+    font-size: 3vh;
+    color: var(--cor1);
+}
+.texto{
+    font-family: Arial;
+    font-weight: bold;
+}
+a {
+    font-family: 'Arial';
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.center{
+    text-align: center
+}
+a:hover{
+    color: rgb(243, 38, 185);
+}
+.center:hover{
+    box-shadow: 0 0 20px rgb(249, 99, 214);
+}
