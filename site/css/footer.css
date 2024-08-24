@@ -1,11 +1,14 @@
-
 #bottom{
     justify-content: center; 
 }
 #lfooter{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    text-align: center;
+    color: white;
 }
 footer{
     height: 5vh;
+    position: fixed;
+    
 }

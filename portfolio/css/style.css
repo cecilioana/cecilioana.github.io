@@ -1,34 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Baskervville+SC&family=Bungee+Tint&family=Matemasie&family=PT+Sans+Narrow:wght@400;700&display=swap');
 :root{
     --cor1:rgb(177, 44, 102);
 }
 #ftprincipal{
-    width: 30vw;
+    width: 20vw;
     margin: auto;
     display: block;
     border-radius: 25px;
     max-width: 500px;
     min-width: 200px;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 h1{
+    margin-top: 1%;
     color: var(--cor1);
-    font-family: 'Papyrus';
+    font-family: 'Matemasie';
     font-weight: bold;
     padding: 1%;
     display: flex;
     justify-content: center;
-}
-main{
-    height: 82vh;
-    width: 100vw;
+    font-size: 4.5vh;
+    min-height: 3.5vh;
 }
 body{
     background-color: rgb(254, 211, 236);
 }
-p{
+.texto1{
     font-size: 3vh;
     margin-left: 20vw;
     margin-right: 20vw;
+    font-family: 'StencilStd';
+    text-align: justify;
+    height: 38vh;
+}
+p{
+    font-size: 3.5vh;
     font-family: 'StencilStd';
     text-align: center;
 }
