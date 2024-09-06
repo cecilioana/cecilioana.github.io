@@ -8,7 +8,7 @@ header{
 }
 .cabeçalho{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     gap: 2%;
 }
 nav a{

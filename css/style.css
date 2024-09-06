@@ -3,9 +3,9 @@
 }
 h1{
     font-family: 'Papyrus';
-    font-size: 4vh;
-    max-height: 4vh;
-    min-width: 3vh;
+    font-size: 3.5vh;
+    max-height: 3.5vh;
+    min-width: 2.5vh;
     text-align: center;
     color: var(--cor1);
 }

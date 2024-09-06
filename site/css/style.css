@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Baskervville+SC&family=Bungee+Tint&family=Matemasie&family=PT+Sans+Narrow:wght@400;700&display=swap');
 body{
+    background-color: azure ;
     margin: 0%;
     padding: 0%;
 }
@@ -78,11 +79,6 @@ p::first-letter{
     justify-content: center;
     flex-wrap: wrap;
     gap: 1%;
-}
-body{
-    background-color: azure ;
-    margin: 0%;
-    padding: 0%;
 }
 iframe{
     width: 70vw;
