@@ -103,11 +103,11 @@ table{
     border-collapse: collapse;
     border: solid, 1px, rgb(1, 1, 92);
     background-color: rgb(205, 227, 255);
-    width: 40vw;
+    width: 50vw;
     min-width: 300px;
     min-height: 350px;
-    max-width: 40vw;
-    max-height: 40vw;
+    max-width: 50vw;
+    max-height: 50vw;
     height: 50vh;
     margin: auto;
     table-layout: fixed;
