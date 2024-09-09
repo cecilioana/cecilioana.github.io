@@ -113,7 +113,7 @@ table{
     table-layout: fixed;
 }
 thead{
-    height: 5vh;
+    height: 4vh;
     background-color:  rgb(126, 181, 253);
 }
 td{
@@ -121,15 +121,15 @@ td{
     text-align: center;
     font-size: 2.5vh;
     max-height: 2.5vh;
-    min-height: 1vh;
+    min-height: 0.5vh;
     font-family: 'Courier New';
 }
 th{
     font-family: 'Papyrus' ;
     border: solid, 1px, rgb(1, 1, 92);
     font-size: 3vh;
-    max-height: 3vh;
-    min-height: 3vh;
+    max-height: 2.5vh;
+    min-height: 2.5vh;
     font-weight: bold;
 }
 tr{
