@@ -51,15 +51,6 @@ p{
     margin-right: 10%;
     margin-left: 10%;
 }
-#formm{
-    font-size: 2.5vh;
-    max-height: 2.5vh;
-    min-height: 2vh;
-    color: white;
-    font-family: 'PT Sans Narrow' ;
-    font-weight: bold;
-    margin-bottom: 10%;
-}
 .link{
     text-decoration: none;
     font-family:'PT Sans Narrow';
@@ -165,7 +156,4 @@ label{
 }
 input{
     margin: 2%;
-}
-fieldset{
-    text-decoration: none;
 }
