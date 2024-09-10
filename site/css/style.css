@@ -113,14 +113,14 @@ table{
     table-layout: fixed;
 }
 thead{
-    height: 4vh;
+    height: 3vh;
     background-color:  rgb(126, 181, 253);
 }
 td{
     border: solid, 1px, rgb(1, 1, 92);
     text-align: center;
-    font-size: 2.5vh;
-    max-height: 2.5vh;
+    font-size: 2vh;
+    max-height: 2vh;
     min-height: 0.5vh;
     font-family: 'Courier New';
 }
