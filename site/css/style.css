@@ -92,9 +92,9 @@ li{
 caption{
     text-align: center;
     color: var(--cor1);
-    font-size: 2vh;
-    max-height: 2.5vh;
-    min-height: 1vh;
+    font-size: 3vh;
+    max-height: 3vh;
+    min-height: 2vh;
     font-family: 'Papyrus';
     font-weight: bold;
     margin-bottom: 2%;
@@ -124,12 +124,14 @@ td{
     min-height: 0.5vh;
     font-family: 'Courier New';
 }
-th{
+th{ 
+    border: solid, 1px, rgb(1, 1, 92);  
+}
+#tabela{
     font-family: 'Papyrus' ;
-    border: solid, 1px, rgb(1, 1, 92);
-    font-size: 2vh;
-    max-height: 2.5vh;
-    min-height: 2.5vh;
+    font-size: 2.5vh;
+    max-height: 2vh;
+    min-height: 2vh;
     font-weight: bold;
 }
 tr{
