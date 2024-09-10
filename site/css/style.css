@@ -136,7 +136,7 @@ tr{
     border: solid, 1px, rgb(1, 1, 92);
     font-size: 2vh;
     max-height: 3.5vh;
-    min-height: 2.5vh;
+    min-height: 1.5vh;
 }
 table tr:nth-child(even){
     background-color:  rgb(161, 199, 249);
