@@ -92,7 +92,7 @@ li{
 caption{
     text-align: center;
     color: var(--cor1);
-    font-size: 3vh;
+    font-size: 2vh;
     max-height: 2.5vh;
     min-height: 1vh;
     font-family: 'Papyrus';
@@ -113,7 +113,7 @@ table{
     table-layout: fixed;
 }
 thead{
-    height: 3vh;
+    height: 2vh;
     background-color:  rgb(126, 181, 253);
 }
 td{
