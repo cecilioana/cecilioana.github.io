@@ -15,7 +15,7 @@ body{
 h1{
     color:var(--cor1);
     text-align: center;
-    font-size: 5vh;
+    font-size: 4.5vh;
     font-family: 'Papyrus' ;
     font-weight: bold;
 }
@@ -33,7 +33,7 @@ h5{
 }
 p{
     font-family: 'Courier New';
-    font-size: 3vh;
+    font-size: 2.5vh;
     min-height: 2vh;
 }
 .texto{
@@ -43,7 +43,7 @@ p{
     margin: auto;
 } 
 p::first-letter{
-    font-size: 4vh;
+    font-size: 3vh;
 }
 .foto1{
     min-width: 35px;
