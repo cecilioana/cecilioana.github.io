@@ -85,6 +85,9 @@ iframe{
     display: block;
     margin: auto ;
 }
+lu{
+    text-align: left;
+}
 li{
     font-family: 'Courier New';
     font-size: 3vh;
